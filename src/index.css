@@ -136,11 +136,11 @@
 }
 
 .modalCuidados{
- @apply bg-gradient-to-r from-[#1F2937] to-[#2a3a50] py-6 rounded-2xl shadow-lg w-[50%] h-[95%] overflow-y-scroll text-center justify-items-center space-y-4 max-md:w-[80%] max-md:h-[80%];
+ @apply bg-gradient-to-r from-[#1F2937] to-[#2a3a50] py-6 rounded-2xl shadow-lg w-[50%] h-[95%] overflow-y-scroll text-center justify-items-center space-y-4 max-md:w-[80%] max-lg:h-[80%];
 }
 
 .modalCuidadoTittle{
-    @apply text-3xl text-orange-200 font-semibold mb-2 py-2 max-md:text-xl;
+    @apply text-3xl text-orange-200 font-semibold mb-2 py-2 max-lg:text-xl;
 }
 
 .modalCuidadoBtn{
@@ -148,7 +148,7 @@
 }
 
 .imgModalCuidados{
-    @apply w-[90%] h-90 rounded-lg border-[1px] border-orange-200 max-md:h-50;
+    @apply w-[90%] h-90 rounded-lg border-[1px] border-orange-200 max-lg:h-50;
 }
 
 .pModalCuidados{

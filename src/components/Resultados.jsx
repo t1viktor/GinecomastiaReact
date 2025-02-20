@@ -9,10 +9,10 @@ export default function Resultados() {
             <div className="grid grid-cols-2 max-lg:grid-cols-1 justify-items-center items-center gap-12">
                 <div className="space-y-12 justify-items-center items-center">
                     <h2 className="text-blue-500 text-4xl">Transformação Completa</h2>
-                    <p className="text-gray-50 text-center">Os resultados da blefaroplastia começam a ser percebidos rapidamente, com a evolução total em até 3 meses após o procedimento.</p>
+                    <p className="text-gray-50 text-center">Os resultados da cirurgia de ginecomastia começam a ser percebidos rapidamente, com a evolução total em até 6 meses após o procedimento.</p>
                     <ul className="text-gray-50 space-y-5">
-                        <li className="relative before:content-['✔']">Olhar mais jovem e revigorado</li>
-                        <li className="relative before:content-['✔']">Remoção de excesso de pele e gordura nas pálpebras</li>
+                        <li className="relative before:content-['✔']">Contorno torácico mais masculino e harmonioso</li>
+                        <li className="relative before:content-['✔']">Remoção do excesso de tecido mamário e gordura</li>
                         <li className="relative before:content-['✔']">Melhora na autoestima e confiança</li>
                         <li className="relative before:content-['✔']">Resultados naturais e duradouros</li>
                     </ul>
@@ -27,7 +27,7 @@ export default function Resultados() {
                     </div>
 
                     <div className="cardResultados">
-                        <h2 className="cardNum text-gray-100 text-5xl font-semibold">3</h2>
+                        <h2 className="cardNum text-gray-100 text-5xl font-semibold">6</h2>
                         <p className="text-gray-400 text-xl">Meses para Resultado Final</p>
                     </div>
                 </div>

@@ -53,18 +53,17 @@ export default function ModalResultados() {
                 </div>
                 <div className="flex justify-between border-b border-gray-700 py-2">
                   <span>1-2 semanas</span>
-                  <span className="text-right">Início da redução do inchaço e melhora da aparência dos olhos</span>
+                  <span className="text-right">Redução inicial do inchaço e desconforto, com melhora gradual do contorno torácico</span>
                 </div>
                 <div className="flex justify-between border-b border-gray-700 py-2">
                   <span>1-2 meses</span>
-                  <span className="text-right">Resultados mais evidentes com os olhos visivelmente rejuvenescidos</span>
+                  <span className="text-right">Inchaço e hematomas diminuem significativamente, com resultados mais visíveis</span>
                 </div>
                 <div className="flex justify-between py-2">
                   <span>3-6 meses</span>
-                  <span className="text-right">Resultados finais visíveis com contorno suave e natural</span>
+                  <span className="text-right">Resultados finais com contorno torácico masculino e natural, cicatrizes mais suaves</span>
                 </div>
               </div>
-
             </div>
           </div>
         </div>

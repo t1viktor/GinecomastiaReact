@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import {card02} from "../Cuidados.jsx";
+import {card02} from "/src/cardsModals.js";
 
 export default function Modal01() {
   const [isOpen, setIsOpen] = useState(false);

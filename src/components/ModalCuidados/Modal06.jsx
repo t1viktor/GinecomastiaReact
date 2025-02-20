@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 
-import {card06} from "../Cuidados.jsx";
+import {card06} from "/src/cardsModals.js";
 
-export default function Modal01() {
+export default function Modal06() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
@@ -27,7 +27,7 @@ export default function Modal01() {
       {/* Fundo escuro e modal */}
       {isOpen && (
         <div className="fixed z-50 inset-0 flex items-center justify-center bgBlur" onClick={() => setIsOpen(false)}>
-          <div className="modalCuidados" onClick={(e) => e.stopPropagation()}>
+          <div className="bg-gradient-to-r from-[#1F2937] to-[#2a3a50] py-6 rounded-2xl shadow-lg w-[50%] h-[95%] overflow-y-scroll text-center justify-items-center space-y-4 max-md:w-[80%] max-md:h-[65%]" onClick={(e) => e.stopPropagation()}>
             <div className="border-b-[1px] w-full px-4 border-gray-700 flex flex-col-reverse items-center">
               <h2 className="modalCuidadoTittle">
                 {card06.tittle}
@@ -53,7 +53,6 @@ export default function Modal01() {
             <ul className="ulModalCuidados marker:text-blue-500">
               <li className="liModalCuidados">{card06.desc01}</li>
               <li className="liModalCuidados">{card06.desc02}</li>
-              <li className="liModalCuidados">{card06.desc03}</li>
               
             </ul>
           </div>
